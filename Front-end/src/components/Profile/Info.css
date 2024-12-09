@@ -1,0 +1,71 @@
+/* Info.css */
+.info-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-display, .info-edit {
+    margin-bottom: 16px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+  
+  .info-field, .edit-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .info-value {
+    color: #555;
+  }
+  
+  .edit-field label {
+    margin-right: 10px;
+  }
+  
+  .edit-field input {
+    padding: 6px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .edit-btn, .save-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .logout-btn {
+    background-color: #f44336;
+    color: white;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  

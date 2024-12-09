@@ -1,0 +1,103 @@
+.contact-page
+{
+  height: 100vh;
+}
+.contact-h1
+{
+  text-align: center;
+  color: black;
+  padding: 1% 0;
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+.contact-h1.dark
+{
+  color: white;
+}
+.contact-p1
+{
+  text-align:center;
+  white-space:pre-wrap;
+  width:80%;
+  justify-content: center;
+  margin: 1.5% auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line
+{
+  border-bottom: 1px solid lightgray;
+  width: 800px;
+  height:2px;
+  margin: 0 23%;
+} 
+.contact {
+    padding: 1% 5%;
+    max-width: 500px;
+    margin: 1% auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact h2 {
+    color: #ff6347;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  .contact-btn
+  {
+    color: #fff;
+    padding: 3% 3%;
+    margin: 0% 20%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(30, 106, 136);
+    width: 45%;
+  }
+@media screen and (max-width:600px) {
+  .contact-page
+  {
+    height: fit-content;
+  }
+}

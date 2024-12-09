@@ -1,0 +1,97 @@
+.story-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.story-title {
+  color: black;
+  text-align: center;
+  font-size: 22px;
+}
+
+.story-content {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+.story-text {
+  flex: 1;
+  font-size: 18px;
+  color: #333;
+  margin: 6% 1%;
+}
+.story-heading
+{
+  padding: 3% 0%;
+}
+.story-heading .story-title
+{
+  font-size: 40px;
+}
+.favorite-btn
+{
+  margin: 1%;
+  background-color: rgb(240, 74, 80);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 3% 7%;
+  font-size: 16px;
+}
+.favorite-btn:hover
+{
+  cursor: pointer;
+  border: 1px solid black;
+  color:  rgb(240, 74, 80);
+  background-color: white;
+}
+.audio-btn
+{
+  margin: 1% 5%;
+  background-color: rgb(240, 74, 80);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 3% 4%;
+  font-size: 16px;
+}
+.audio-btn:hover
+{
+  cursor: pointer;
+  border: 1px solid black;
+  color:  rgb(240, 74, 80);
+  background-color: white;
+}
+.story-words
+{
+  padding: 2% 5%;
+  font-size: 20px;
+}
+.inherit
+{
+  border: none;
+  background: transparent;
+  color: green;
+  font-family: cursive;
+}
+.inherit:hover{
+  background-color: white;
+}
+.similar-section
+{
+  width: 80%;
+  margin: 0% 10%;
+}
+.similar-cotent
+{
+  display: flex;
+  gap: 1%;
+}
+.video-con
+{
+  margin: 10% 0%;
+  border-radius: 5px;
+}

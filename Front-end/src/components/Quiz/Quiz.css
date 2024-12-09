@@ -1,0 +1,113 @@
+.quiz-container
+{
+    height: 100vh;
+}
+.quiz-div
+{
+    width: 100%;
+    /* height: 100vh; */
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.quiz-section
+{
+    width:230px;
+    height: 300px;
+    margin-right: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: url('../../assets/Quiz/quiz1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.quiz-section1
+{
+    width:230px;
+    height: 300px;
+    margin-right: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: url('https://m.media-amazon.com/images/I/716g3ctD+nL._AC_UF1000,1000_QL80_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.quiz-section2
+{
+    width:230px;
+    height: 300px;
+    margin-right: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEnw5IHDafYfFkVNO68xwRizsLsxJJtikfzw&s');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.quiz-section3
+{
+    width:230px;
+    height: 300px;
+    margin-right: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: url('../../assets/Quiz/quiz1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.quiz-section4
+{
+    width:230px;
+    height: 300px;
+    margin-right: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-image: url('../../assets/Quiz/quiz1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.quiz-section:hover
+{
+    transform: translateY(-5px);
+}
+.quiz-edit,.quiz-del
+{
+    font-weight: 300;
+    color: white;
+    width: 90px;
+    background-color: rgb(54, 54, 53);
+    margin:1% 1%;
+    border: none;
+    border-radius: 7px;
+    height: 35px;
+    font-size: 16px;
+}
+.add_quiz
+{
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: red;
+    width: 80px;
+    border: none;
+    height: 40px;
+    border-radius: 7px;
+    margin:2% 45%;
+}
+.add_quiz:hover,.quiz-edit:hover,.quiz-del:hover
+{
+    cursor: pointer;
+}
+.add_quiz:hover
+{
+    background-color: rgb(54, 54, 53);
+}
+.quiz-edit:hover,.quiz-del:hover
+{
+    background-color: red;
+}

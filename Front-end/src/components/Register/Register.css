@@ -1,0 +1,103 @@
+.register-total-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.register-content {
+    display: flex;
+    border: .5 solid lightgray;
+    width: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.register-image {
+    border: .5px solid lightgray;
+    width: 490px;
+    height: 480px;
+    background-image: url('../../assets/Login-image/login-img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 2%;
+    width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.text-box-rgs {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.role-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.submit-btn {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.reg-btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28A745;
+    color: white;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.submit-btn:hover, .reg-btn:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+.register-form {
+    padding: 0% 1%;
+}

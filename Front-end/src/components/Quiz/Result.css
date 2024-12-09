@@ -1,0 +1,44 @@
+.result-container {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 15% auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.result-title {
+  font-size: 2rem;
+  font-family: 'Verdana', sans-serif;
+  color: rgb(32, 112, 144);
+  margin-bottom: 20px;
+}
+
+.result-score, .result-summary {
+  font-size: 1.2rem;
+  color: #555555;
+  margin: 10px 0;
+}
+
+.result-score span, .result-summary span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.result-message {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.result-container {
+  animation: fadeIn 1s ease-in;
+}

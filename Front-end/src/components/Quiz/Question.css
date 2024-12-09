@@ -1,0 +1,52 @@
+.question-div
+{
+    margin:2% 0%;
+    padding: 2% 0%;
+}
+.question
+{
+    margin: 2% 2%;
+    font-size: 30px;
+}
+.question-div p
+{
+    border: .5px solid grey;
+    border-radius: 4px;
+    padding: 1% 1%;
+    margin: 1% 2%;
+    width: 75%;
+    cursor: pointer;
+}
+.selected
+{
+    background-color: #007BFF;
+    color: white;
+}
+.options:hover
+{
+    cursor: pointer;
+    background-color: #007BFF;
+}
+.next-btn
+{
+    border: .5px solid grey;
+    margin: 1% 2%;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    padding: 13px 15px;
+    width: 200px;
+    border-radius: 10px;
+    color: #007BFF;
+    background-color: white;
+}
+.next-btn:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: #007BFF;
+
+}
+.options.selected {
+    background-color: #007BFF;
+    color: white;
+}

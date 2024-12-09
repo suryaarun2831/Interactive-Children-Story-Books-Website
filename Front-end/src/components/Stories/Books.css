@@ -1,0 +1,227 @@
+.story-filter
+{
+  margin: 10% 5%;
+}
+.story-input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #FFB6C1; 
+  font-size: 16px;
+  width: 40%; 
+  outline: none;
+  margin-right: 10px;
+}
+.story-age-input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #FFB6C1; 
+  font-size: 16px;
+  width: 10%; 
+  outline: none;
+  margin-right: 10px;
+}
+
+.search-btn {
+  padding: 10px 18px;
+  background-color: #FFD700;
+  border: 2px solid #FFA07A; 
+  border-radius: 12px; 
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff; 
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.search-btn:hover {
+  background-color: #FFA07A; 
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.book-h1 {
+  color: #414;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 28px;
+}
+.book-h1.dark
+{
+  color: white;
+}
+
+.book-card-div {
+  display: flex;
+  padding: 2% 2%;
+  overflow-x: scroll;
+}
+
+.book-card-div::-webkit-scrollbar {
+  display: none;
+}
+
+.book-card {
+  min-width: 230px;
+  min-height: 200px;
+}
+
+.book-card:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.book-btn {
+  color: white;
+  background-color: rgb(248, 49, 42);
+  font-size: 16px;
+  width: 100px;
+  border-radius: 10px;
+  height: 35px;
+  border: none;
+  margin: 2% 2%;
+}
+
+.book-btn:hover {
+  background-color: rgb(54, 54, 53);
+  cursor: pointer;
+}
+
+.book-edit-btn,
+.book-del-btn {
+  color: white;
+  font-size: 16px;
+  background-color: rgb(248, 49, 49);
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+}
+
+.book-edit-btn:hover,
+.book-del-btn:hover {
+  cursor: pointer;
+}
+
+.book-del-btn {
+  margin-left: 20px;
+}
+
+.story-explore-content {
+  display: flex;
+  overflow-x: scroll;
+}
+.story-explore-content::-webkit-scrollbar {
+  display: none;
+}
+
+.story-explore-card {
+  min-width: 270px;
+  text-align: center;
+}
+.story-explore-card p.dark
+{
+  color: white;
+}
+
+.story-explore-card:hover {
+  cursor: pointer;
+}
+
+.story-img {
+  max-width: 200px;
+  max-height: 300px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.add-story-btn {
+  width: 150px;
+  background-color: black;
+  padding: 10px;
+  margin: 2% auto;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+  display: block;
+}
+.add-story-btn.dark
+{
+  background-color: rgb(247, 72, 72);
+  border: none;
+  width: 150px;
+}
+
+.add-story-btn:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 0.5px solid black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .book-h1 {
+    font-size: 24px;
+    padding-top: 15px;
+  }
+
+  .story-explore-card {
+    min-width: 200px;
+  }
+
+  .story-img {
+    max-width: 150px;
+    max-height: 220px;
+  }
+
+  .book-btn,
+  .book-edit-btn,
+  .book-del-btn {
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+    padding: 6px;
+  }
+
+  .add-story-btn {
+    width: 130px;
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .book-h1 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  .story-explore-card {
+    min-width: 240px;
+  }
+
+  .story-img {
+    max-width: 170px;
+    max-height: 250px;
+  }
+
+  .book-btn,
+  .book-edit-btn,
+  .book-del-btn {
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+    padding: 5px;
+  }
+
+  .add-story-btn {
+    width: 110px;
+    padding: 6px;
+    font-size: 12px;
+  }
+}
+.tit .dark
+{
+  color: white;
+  font-size: 18px;
+}
